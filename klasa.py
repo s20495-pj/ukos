@@ -7,3 +7,11 @@ class klasa:
         return self.x.join(s)
 k=klasa('x')
 print(k.string(sys.argv))
+
+class Inna:
+    def __str__(self):
+        return "siema"
+i = Inna()
+print(i)
+
+
