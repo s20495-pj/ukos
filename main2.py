@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
-import sys 
+import sys
 def main(nazwaWlasna):
-    print(nazwaWlasna)
+    print('\n'.join(nazwaWlasna))
 
 main(sys.argv)
